@@ -1,0 +1,23 @@
+body{
+  background: linear-gradient(
+      to right,
+      rgba(75, 0, 130, 1),
+      rgba(128, 0, 128, 1)
+    );
+    color: white;
+}
+
+.login-paper {
+  padding: 20px;
+  width: 100%; /* Set an initial width, adjust as needed */
+  margin-top:20%
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+  .login-paper {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}
+
+
